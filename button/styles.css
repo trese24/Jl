@@ -7,7 +7,7 @@
 
 *{
     margin: 0;
-    padding: ;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,20 +17,12 @@
     display: inline-block;
     color: #black;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 50px 50px;
     border: 9px solid 
-    color: #ff4d4d;
-        /* Red color */
-        font-size: 24px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
-        /* Remove underline */
-        cursor: pointer;
-        transition: color 0.3s ease, text-shadow 0.3s ease;
     
     border-radius: 5x;
     align-items: :end;
+    
 }
 
 .button:hover{

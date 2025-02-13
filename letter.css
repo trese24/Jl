@@ -1,6 +1,6 @@
 :root {
     --primary: #fff;
-    --bg-color: rgb(187, 34, 7);
+    
     --bg-envelope-color: #f5edd1;
     --envelope-tab: #ecdeb8;
     --envelope-cover: #e6cfa7;
@@ -69,7 +69,6 @@ body {
     height: 100%;
     background: var(--primary);
     text-align: center;
-    word-spacing: 4px;
     transition: all 1s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 5px 20px;
@@ -79,8 +78,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--txt-color);
     text-align: left;
-    letter-spacing: 1px;
-    font-size: 7px;
+    letter-spacing: px;
+    font-size: 6px;
 }
 
 .heart {
