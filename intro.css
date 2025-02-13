@@ -1,0 +1,10 @@
+]
+
+body {
+    margin: 0;
+    padding: ;
+    box-sizing: border-box;
+    background: var(--bg-color);
+    display: flex;
+    
+}

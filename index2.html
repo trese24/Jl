@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers for you ja <3</title>
+    <link rel="icon" href="Heart.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Love letter1.css">
+    <style>
+      p {
+        font-size: 2px;
+      }
+    </style>
+
+</head>
+<audio id="song">
+  <source src="Aprodite.mp3">
+</audio>
+<script>
+  window.addEventListener('click', () => {
+    document.getElementById("song").play();
+  });
+</script>
+
+<p>
+<h1><br>(click for more)<br></h1></p>
+    <div class="sunflwr">
+      <div class="sunflwr__leaf--left"></div>
+      <div class="sunflwr__leaf--right"></div>
+      <div class="sunflwr__stem"></div>
+      <div class="sunflwr__center"></div>
+      <div class="sunflwr__pedal--1"></div>
+      <div class="sunflwr__pedal--2"></div>
+      <div class="sunflwr__pedal--3"></div>
+      <div class="sunflwr__pedal--4"></div>
+      <div class="sunflwr__pedal--5"></div>
+      <div class="sunflwr__pedal--6"></div>
+      <div class="sunflwr__pedal--7"></div>
+      <div class="sunflwr__pedal--8"></div>
+      <div class="sunflwr__pedal--9"></div>
+      <div class="sunflwr__pedal--10"></div>
+      <div class="sunflwr__pedal--11"></div>
+      <div class="sunflwr__pedal--12"></div>
+    </div>
+    <script src="script.js"></script>
+    
+
+    <div class="moon_outer">
+      <div class="moon">
+        <div class="details"></div>
+        <div class="details one"></div>
+        <div class="details two"></div>
+        <div class="details three"></div>
+        <div class="details four small"></div>
+      </div>
+    </div>
+    <section id="stars"></section>
+
+    <script type="text/javascript">
+      function stars() {
+        const count = 300;
+        const stars = document.getElementById('stars');
+        var i = 0;
+        while (i < count) {
+          const star = document.createElement('i');
+          const x = Math.floor(Math.random() * window.innerWidth)
+          const y = Math.floor(Math.random() * window.innerHeight)
+          const size = Math.random() * 5;
+          star.style.left = x + 'px';
+          star.style.top = y + 'px';
+          star.style.height = 1 + size + 'px';
+          star.style.width = 1 + size + 'px';
+          const duration = Math.random() * 2;
+          star.style.animationDuration = 2 + duration + 's';
+          stars.appendChild(star);
+          i++
+        }
+      }
+      stars();
+    </script>
+</body>
+</html>
